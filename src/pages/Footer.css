@@ -1,0 +1,10 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative; /* 必要に応じて */
+  bottom: 0; /* 必要に応じて */
+  width: 100%; /* 必要に応じて */
+}

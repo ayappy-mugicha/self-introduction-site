@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+nav ul {
+  list-style: none; /* リストの黒い丸を消す */
+  padding: 0;
+  margin: 0;
+  display: flex; /* リストアイテムを横並びにする */
+  background-color: #333;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white; /* リンクの文字色を白に */
+  text-decoration: none; /* リンクの下線を消す */
+  padding: 10px 15px;
+  display: block; /* クリックできる範囲を広げる */
+}
+
+nav a:hover {
+  background-color: #555; /* ホバー時の背景色 */
+}
